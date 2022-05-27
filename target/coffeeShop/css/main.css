@@ -1,0 +1,26 @@
+@charset "ISO-8859-1";
+.list-group-item.active{
+	background: #3e2723 !important;
+	border-color: #3e2723 !important;
+}
+.card-img-top{
+	max-width:100%;
+	width:auto important!;
+}
+.card-text{
+	line-height: 22px;
+}
+
+.product-card:hover{
+	cursor:pointer;
+	box-shadow: 2px 2px 5px 7px rgba(0, 0, 0, 0.3) !important;
+}
+
+i.fas.fa-cart-plus{
+	font-family: fontawesome !important;
+}
+#span::before{
+	content: 'show more';
+	color:  #b48868;
+	cursor: pointer;
+}

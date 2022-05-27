@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+
+body{
+	background: url(../img/coffee-bean.png);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.row{
+    margin-top: 10%;
+}
+
+
+.card:hover{
+    box-shadow: 3.5px 3.5px 5px 7.5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.card-header{
+    background-color: #8b6245;
+    color: white;
+}
+
+.card-header > img{
+    position: absolute;
+}
+.card-header > h4{
+    padding-left: 32px;
+}
+
+.card-body{
+	background-color: #b48868;
+	color: white;
+}
+
+#add-section{
+    margin-top: 5%  !important;
+    
+}

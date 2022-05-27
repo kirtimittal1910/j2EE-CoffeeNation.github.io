@@ -1,0 +1,136 @@
+@charset "ISO-8859-1";
+ *{
+   margin:0; 
+   padding:0;
+ }
+ 
+ body{
+    background:url(../img/homeBg1.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+} 
+
+ 
+.loader-wrapper{
+	position:absolute;
+	width: 100%;
+	height: 100vh;
+	top:0;
+	left: 0;
+	background-color: #242f3f;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 100;
+}
+
+.loader {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border: 4px solid #Fff;
+  animation: loader 2s infinite ease;
+}
+
+.loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  animation: loader-inner 2s infinite ease-in;
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  
+  25% {
+    transform: rotate(180deg);
+  }
+  
+  50% {
+    transform: rotate(180deg);
+  }
+  
+  75% {
+    transform: rotate(360deg);
+  }
+  
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loader-inner {
+  0% {
+    height: 0%;
+  }
+  
+  25% {
+    height: 0%;
+  }
+  
+  50% {
+    height: 100%;
+  }
+  
+  75% {
+    height: 100%;
+  }
+  
+  100% {
+    height: 0%;
+  }
+}
+
+.nav{
+	background-color: #0009;
+}
+
+.navbar-brand{
+	text-decoration: none;
+	color: #fff;
+}
+
+a .navbar-brand:hover{
+	color: #fff;
+}
+
+a font:hover{
+	color: white;
+}
+
+a:hover{
+	color:#fff;
+}
+
+.nav-value > li > a{
+	text-decoration: none;
+	color: #fff;
+}
+
+#header-title > h1{
+	font-family : -webkit-body;
+	font-style: oblique;
+	margin-top: 13%;
+	margin-left: 55%;
+	font-size: 62px;
+	color: #B68D40;
+}
+.menu{
+	color: white;
+	font-family : -webkit-body !important;
+	font-style: oblique !important;
+	margin-left: 55% !important;
+	margin-top: 1% !important;
+	font-size: 30px !important;
+	border-style:solid;
+	border-block-color: #5C4033	!important;
+	border-radius: 20px;
+	background-color: #5C4033 !important;
+}
+

@@ -1,0 +1,68 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>registerServlet</servlet-name>
+  	<display-name>registerServlet</display-name>
+  	<description></description>
+  	<servlet-class>Servlets.registerServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>loginServlet</servlet-name>
+  	<display-name>loginServlet</display-name>
+  	<description></description>
+  	<servlet-class>Servlets.loginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>logoutServlet</servlet-name>
+  	<display-name>logoutServlet</display-name>
+  	<description></description>
+  	<servlet-class>Servlets.logoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>productOperationServlet</servlet-name>
+  	<display-name>productOperationServlet</display-name>
+  	<description></description>
+  	<servlet-class>Servlets.productOperationServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>orderServlet</servlet-name>
+  	<display-name>orderServlet</display-name>
+  	<description></description>
+  	<servlet-class>Servlets.orderServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>feedbackServlet</servlet-name>
+  	<display-name>feedbackServlet</display-name>
+  	<description></description>
+  	<servlet-class>Servlets.feedbackServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+  	<servlet-name>registerServlet</servlet-name>
+  	<url-pattern>/registerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>loginServlet</servlet-name>
+  	<url-pattern>/loginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>logoutServlet</servlet-name>
+  	<url-pattern>/logoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>productOperationServlet</servlet-name>
+  	<url-pattern>/productOperationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>orderServlet</servlet-name>
+  	<url-pattern>/orderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>feedbackServlet</servlet-name>
+  	<url-pattern>/feedbackServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
+
